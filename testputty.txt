@@ -1,1 +1,1 @@
-{"fragments":[{"order":2,"data":"NCtd91NNTYfnAoh"},{"order":1,"data":"txAfYSAGt"},{"order":10,"data":"DlIECOrhJT"},{"order":6,"data":"1eqc5WiPW/Ix"},{"order":9,"data":"mcMBZ0u"},{"order":5,"data":"8BrCsHi"},{"order":0,"data":"m1sAD4+XF"},{"order":8,"data":"cnp4hz/scK6Llhz"},{"order":3,"data":"dujAJZqtxD+MVI"},{"order":11,"data":"a"},{"order":7,"data":"3qTb1i"},{"order":4,"data":"ZRr00yrR4MrJlPj"}],"verification_hash":"bTFzQUQ0K1hGdHhB","pi_offsets":[1045,1857,1045,778,1815]}
+https://github.com/user-attachments/files/19263390/putty_temp2.txt
