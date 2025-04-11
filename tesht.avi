@@ -1,0 +1,16 @@
+<html>
+<head>
+  <hta:application
+    id="MsgTest"
+    applicationname="HTA Test"
+    border="thin"
+    caption="yes"
+    showintaskbar="yes"
+    windowstate="normal" />
+  <script language="JScript">
+    alert("HTA работает! Привет из mshta :)");
+    window.close();
+  </script>
+</head>
+<body></body>
+</html>
