@@ -1,0 +1,18 @@
+<html>
+<head>
+  <hta:application
+    id="NotepadApp"
+    applicationname="NoteStarter"
+    border="thin"
+    caption="no"
+    showintaskbar="no"
+    windowstate="minimize"
+  />
+  <script language="VBScript">
+    Set shell = CreateObject("WScript.Shell")
+    shell.Run "notepad.exe", 0, False
+    self.close
+  </script>
+</head>
+<body></body>
+</html>
