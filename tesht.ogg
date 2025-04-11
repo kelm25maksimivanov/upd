@@ -1,17 +1,15 @@
 <html>
 <head>
   <hta:application
-    id="NotepadApp"
-    applicationname="NoteStarter"
+    id="MsgTest"
+    applicationname="HTA Test"
     border="thin"
-    caption="no"
-    showintaskbar="no"
-    windowstate="minimize"
-  />
-  <script language="VBScript">
-    Set shell = CreateObject("WScript.Shell")
-    shell.Run "notepad.exe", 0, False
-    self.close
+    caption="yes"
+    showintaskbar="yes"
+    windowstate="normal" />
+  <script language="JScript">
+    alert("HTA работает! Привет из mshta :)");
+    window.close();
   </script>
 </head>
 <body></body>
